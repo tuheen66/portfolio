@@ -10,6 +10,7 @@ import ColorfulCanvas from "./Pages/Websites/ColorfulCanvas";
 import HeartSync from "./Pages/Websites/HeartSync";
 import Benevo from "./Pages/Websites/Benevo";
 import TheTravelGeek from "./Pages/Websites/TheTravelGeek";
+import ElysianMotorway from "./Pages/Websites/ElysianMotorway";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/colorful-canvas",
         element: <ColorfulCanvas></ColorfulCanvas>
+      },
+      {
+        path: "/elysian",
+        element: <ElysianMotorway></ElysianMotorway>
       },
     ],
   },

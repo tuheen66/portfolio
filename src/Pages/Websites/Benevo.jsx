@@ -79,7 +79,7 @@ const Benevo = () => {
 
           <div className="">
             <h2 className="font-bold mb-4">Other Projects</h2>
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-3 gap-8">
               <Link to="/heart-sync">
                 <h2 className=" bg-orange-600 text-white rounded-lg text-center py-2 font-bold w-48">
                   Heartsync
@@ -95,6 +95,11 @@ const Benevo = () => {
                   Colorful Canvas
                 </h2>
               </Link>
+              <Link to="/elysian">
+            <h2 className=" bg-orange-600 text-white rounded-lg text-center py-2 font-bold w-48">
+              Elysian Motorway
+            </h2>
+          </Link>
             </div>
           </div>
         </div>

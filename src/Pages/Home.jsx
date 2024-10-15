@@ -114,6 +114,11 @@ const Home = () => {
               Colorful Canvas
             </h2>
           </Link>
+          <Link to="/elysian">
+            <h2 className=" bg-orange-600 text-white rounded-lg text-center py-2 font-bold w-48">
+              Elysian Motorway
+            </h2>
+          </Link>
         </div>
       </div>
 
