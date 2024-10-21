@@ -94,6 +94,11 @@ const ColorfulCanvas = () => {
                     Heartsync
                   </h2>
                 </Link>
+                <Link to="/tourismo">
+            <h2 className=" bg-orange-600 text-white rounded-lg text-center py-2 font-bold ">
+              Tourismo
+            </h2>
+          </Link>
                 <Link to="/travel-geek">
                   <h2 className=" bg-orange-600 text-white rounded-lg text-center py-2 font-bold ">
                     The Travel Geek
