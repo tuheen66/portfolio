@@ -7,7 +7,7 @@ const ColorfulCanvas = () => {
     <div className="mx-4 mt-12 lg:w-[80%] lg:mx-auto">
       <div className="flex flex-col lg:flex-row">
         <div className="lg:w-2/3">
-          <div className="max-w-4xl mx-auto p-6 space-y-6 text-gray-700">
+          <div className="max-w-4xl mx-auto p-6 space-y-6 text-gray-400">
             <h1 className="text-4xl font-bold text-center text-indigo-600 space-x-2">
               <span className="text-red-500">Colorful</span>
               <span className="text-green-600">Canvas</span>
@@ -18,7 +18,7 @@ const ColorfulCanvas = () => {
             </p>
 
             <div className="space-y-4">
-              <h2 className="text-2xl font-semibold text-gray-800">
+              <h2 className="text-2xl font-semibold text-gray-400">
                 Technologies Used:
               </h2>
               <ul className="list-disc pl-6 space-y-1">
@@ -38,7 +38,7 @@ const ColorfulCanvas = () => {
             </div>
 
             <div className="space-y-4">
-              <h2 className="text-2xl font-semibold text-gray-800">
+              <h2 className="text-2xl font-semibold text-gray-400">
                 Main Features:
               </h2>
               <ul className="list-disc pl-6 space-y-2">
@@ -89,7 +89,7 @@ const ColorfulCanvas = () => {
       <div className="my-12">
               <h2 className="font-bold mb-4">Other Projects</h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:w-2/3">
-                <Link to="/heart-sync">
+                <Link to="/heartsync">
                   <h2 className=" bg-orange-600 text-white rounded-lg text-center py-2 font-bold ">
                     Heartsync
                   </h2>

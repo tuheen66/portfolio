@@ -1,6 +1,10 @@
 import heartsync from "../assets/images/Heartsync.jpg";
 import tourismo from "../assets/images/Tourismo.jpg";
 import benevo from "../assets/images/Benevo.jpg";
+import color from "../assets/images/Colorful_Canvas.jpg";
+import travel from "../assets/images/Travel_Geek.jpg";
+import motor from "../assets/images/Elysian.jpg";
+
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -17,8 +21,8 @@ const MyPortfolio = () => {
         <div className="grid lg:grid-cols-3 gap-8">
           <div className="border-2 border-gray-300 shadow-xl shadow-slate-400 p-4 rounded-xl h-fit">
             <h2 className="mb-4 text-center text-2xl ">Heartsync</h2>
-            <div>
-              <img className="rounded-xl" src={heartsync} alt="" />
+            <div className="">
+              <img className="rounded-xl  " src={heartsync} alt="" />
             </div>
             <div className="mt-4 flex justify-center">
               <Link to="/heartsync">
@@ -32,7 +36,7 @@ const MyPortfolio = () => {
           <div className="border-2 border-gray-300 shadow-xl shadow-slate-400 p-4 rounded-xl">
             <h2 className="mb-4 text-center text-2xl ">Tourismo</h2>
             <div>
-              <img className="rounded-xl" src={tourismo} alt="" />
+              <img className="rounded-xl " src={tourismo} alt="" />
             </div>
             <div className="mt-4 flex justify-center">
               <Link to="/tourismo">
@@ -48,6 +52,7 @@ const MyPortfolio = () => {
             <div>
               <img className="rounded-xl" src={benevo} alt="" />
             </div>
+
             <div className="mt-4 flex justify-center">
               <Link to="/benevo">
                 <button className="bg-[#ffb400] text-[#a9106b] px-4 py-2  flex items-center gap-4 rounded-lg font-bold">
@@ -56,6 +61,52 @@ const MyPortfolio = () => {
               </Link>
             </div>
           </div>
+
+          <div className="border-2 border-gray-300 shadow-xl shadow-slate-400 p-4 rounded-xl h-fit">
+            <h2 className="mb-4 text-center text-2xl ">Colorful Canvas</h2>
+            <div>
+              <img className="rounded-xl" src={color} alt="" />
+            </div>
+
+            <div className="mt-4 flex justify-center">
+              <Link to="/colorful-canvas">
+                <button className="bg-[#ffb400] text-[#a9106b] px-4 py-2  flex items-center gap-4 rounded-lg font-bold">
+                  Go to Colorful Canvas page <FaArrowRight></FaArrowRight>{" "}
+                </button>
+              </Link>
+            </div>
+          </div>
+
+          <div className="border-2 border-gray-300 shadow-xl shadow-slate-400 p-4 rounded-xl h-fit">
+            <h2 className="mb-4 text-center text-2xl ">Travel Geek</h2>
+            <div>
+              <img className="rounded-xl" src={travel} alt="" />
+            </div>
+
+            <div className="mt-4 flex justify-center">
+              <Link to="/travel-geek">
+                <button className="bg-[#ffb400] text-[#a9106b] px-4 py-2  flex items-center gap-4 rounded-lg font-bold">
+                  Go to Travel Geek page <FaArrowRight></FaArrowRight>{" "}
+                </button>
+              </Link>
+            </div>
+          </div>
+
+          <div className="border-2 border-gray-300 shadow-xl shadow-slate-400 p-4 rounded-xl h-fit">
+            <h2 className="mb-4 text-center text-2xl ">Elysian Motorways</h2>
+            <div>
+              <img className="rounded-xl" src={motor} alt="" />
+            </div>
+
+            <div className="mt-4 flex justify-center">
+              <Link to="/elysian">
+                <button className="bg-[#ffb400] text-[#a9106b] px-4 py-2  flex items-center gap-4 rounded-lg font-bold">
+                  Go to Elysian Motorways page <FaArrowRight></FaArrowRight>{" "}
+                </button>
+              </Link>
+            </div>
+          </div>
+
         </div>
       </section>
     </div>

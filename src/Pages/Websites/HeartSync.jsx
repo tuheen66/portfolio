@@ -118,6 +118,22 @@ const HeartSync = () => {
               Benevo
             </h2>
           </Link>
+
+          <Link to="/travel-geek">
+            <h2 className=" bg-orange-600 text-white rounded-lg text-center py-2 font-bold ">
+              The Travel Geek
+            </h2>
+          </Link>
+          <Link to="/colorful-canvas">
+            <h2 className=" bg-orange-600 text-white rounded-lg text-center py-2 font-bold ">
+              Colorful Canvas
+            </h2>
+          </Link>
+          <Link to="/elysian">
+            <h2 className=" bg-orange-600 text-white rounded-lg text-center py-2 font-bold ">
+              Elysian Motorway
+            </h2>
+          </Link>
           
         </div>
       </div>
