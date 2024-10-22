@@ -8,13 +8,13 @@ const MyPortfolio = () => {
   return (
     <div className="w-[90%] mx-auto mb-12">
       <div>
-        <h2 className="text-7xl font-bold text-white text-center uppercase my-12">
+        <h2 className="text-4xl md:text-5xl  lg:text-7xl font-bold text-white text-center uppercase my-12">
           my <span className="text-[#ffb400]">portfolio</span>
         </h2>
       </div>
 
       <section>
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 gap-8">
           <div className="border-2 border-gray-300 shadow-xl shadow-slate-400 p-4 rounded-xl h-fit">
             <h2 className="mb-4 text-center text-2xl ">Heartsync</h2>
             <div>

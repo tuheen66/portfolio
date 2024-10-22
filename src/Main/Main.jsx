@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 
 const Main = () => {
     return (
-        <div className='flex justify-between w-[90%] mx-auto'>
+        <div className='flex flex-col-reverse lg:flex-row justify-between w-[90%] mx-auto'>
             <Outlet></Outlet>
             <Navbar></Navbar>
         </div>

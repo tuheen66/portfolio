@@ -4,15 +4,12 @@ import { FaEnvelope, FaHome, FaPhoneSquare } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="w-[90%] mx-auto">
-
-      <div className="my-12 flex flex-col lg:flex-row gap-8 justify-between items-center">
+      <div className="my-12 flex flex-col md:flex-row gap-8 justify-between items-center">
         <div className="space-y-12">
           <div className="flex items-center gap-4">
             <FaHome className="text-3xl text-orange-900" />
             <div>
-              <p className="font-semibold">
-                Monirul Hasan
-              </p>
+              <p className="font-semibold">Monirul Hasan</p>
               <p>672/A, Baramaghbazar, Dhaka-1217</p>{" "}
             </div>
           </div>

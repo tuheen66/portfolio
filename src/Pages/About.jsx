@@ -10,7 +10,7 @@ import { FaSquareWhatsapp } from "react-icons/fa6";
 import { IoIosBriefcase, IoLogoJavascript } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { RiFirebaseFill, RiReactjsLine } from "react-icons/ri";
-import { SiExpress, SiMongodb } from "react-icons/si";
+import { SiDaisyui, SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -18,14 +18,14 @@ const About = () => {
     <div className="w-[90%] mx-auto ">
       <section className="mt-12 ">
         <div>
-          <h2 className="text-7xl font-bold text-white text-center ">
+          <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white text-center ">
             ABOUT <span className="text-[#ffb400]">ME</span>
           </h2>
         </div>
 
-        <div className="mt-12 flex gap-8">
-          <div className="flex flex-1 gap-12">
-            <div className="space-y-4">
+        <div className="lg:mt-12 flex flex-col lg:flex-row gap-8 items-center">
+          <div className="flex flex-1 flex-col md:flex-row gap-12 md:items-center">
+            <div className="space-y-4 mt-8">
               <h2 className="font-bold text-3xl  text-white">Monirul Hassan</h2>
               <p className="text-xl">Front-end Web Developer</p>
 
@@ -60,28 +60,31 @@ const About = () => {
               </p>
             </div>
 
-            <div className="flex flex-col gap-12">
+            <div className="flex flex-wrap md:flex-col gap-4 lg:gap-12 justify-center">
               <Link to="https://github.com/tuheen66" target="_blank">
-              <button className="bg-[#ffb400] text-[#a9106b] w-full  py-2 rounded-lg font-bold">
-                Github
-              </button>
+                <button className="bg-[#ffb400] text-[#a9106b] w-full px-2 py-2 rounded-lg font-bold">
+                  Github
+                </button>
               </Link>
-              <Link to ="https://www.linkedin.com/in/monirul-hassan-80856469/" target="_blank">
-              <button className="bg-[#ffb400] text-[#a9106b] w-full py-2 rounded-lg font-bold">
-                LinkedIn
-              </button>
+              <Link
+                to="https://www.linkedin.com/in/monirul-hassan-80856469/"
+                target="_blank"
+              >
+                <button className="bg-[#ffb400] text-[#a9106b] w-full px-2 py-2 rounded-lg font-bold">
+                  LinkedIn
+                </button>
               </Link>
               <a
                 href="/MONIRUL_HASSAN.pdf"
                 download
-                className="bg-[#ffb400] text-[#a9106b] w-full px-4 py-2 rounded-lg font-bold"
+                className="bg-[#ffb400] text-[#a9106b] lg:w-full px-4 py-2 rounded-lg font-bold"
               >
                 Download CV
               </a>
             </div>
           </div>
 
-          <div className=" flex-1 grid grid-cols-2 gap-8 ">
+          <div className=" flex-1 grid md:grid-cols-2 gap-8  mb-8">
             <div className="border-2 border-gray-600 p-4 rounded-xl">
               <h2 className="text-[#ffb400] text-xl flex ">
                 <span className="text-5xl font-bold">2</span>+
@@ -117,11 +120,11 @@ const About = () => {
         </div>
       </section>
 
-      <section className="my-12">
-        <h2 className="text-5xl font-bold uppercase text-center mb-12">
+      <section className="lg:my-12">
+        <h2 className="text-3xl md:text-5xl font-bold uppercase text-center mb-12">
           My Skills
         </h2>
-        <div className=" flex flex-wrap gap-20 justify-center">
+        <div className=" flex flex-wrap gap-8 lg:gap-20 justify-center mb-12">
           <div className="flex flex-col items-center text-xl border-2 border-gray-300 w-32 h-32 justify-center rounded-full ">
             <FaHtml5 className="text-4xl"></FaHtml5>
             <p>Html5</p>
@@ -130,6 +133,16 @@ const About = () => {
           <div className="flex flex-col items-center text-xl border-2 border-gray-300 w-32 h-32 justify-center rounded-full ">
             <FaCss3Alt className="text-4xl"></FaCss3Alt>
             <p>CSS3</p>
+          </div>
+
+          <div className="flex flex-col items-center text-xl border-2 border-gray-300 w-32 h-32 justify-center rounded-full ">
+            <SiTailwindcss className="text-4xl"></SiTailwindcss>
+            <p>Tailwind CSS</p>
+          </div>
+
+          <div className="flex flex-col items-center text-xl border-2 border-gray-300 w-32 h-32 justify-center rounded-full ">
+            <SiDaisyui className="text-6xl"></SiDaisyui>
+            <p>Daisy UI</p>
           </div>
 
           <div className="flex flex-col items-center text-xl border-2 border-gray-300 w-32 h-32 justify-center rounded-full ">
@@ -167,10 +180,10 @@ const About = () => {
       <hr />
 
       <section className="my-12">
-        <h2 className="uppercase text-center font-bold text-5xl mb-12">
+        <h2 className="uppercase text-center font-bold text-3xl md:text-5xl mb-12">
           Experience & Education
         </h2>
-        <div className="flex gap-32">
+        <div className="flex flex-col lg:flex-row lg:gap-32">
           {/* experience */}
           <div className="flex flex-col flex-1 ">
             {/* 1 */}
@@ -231,7 +244,7 @@ const About = () => {
             </div>
           </div>
 
-
+          <hr className="mb-12 lg:hidden" />
           {/* education */}
           <div className="flex flex-col flex-1">
             {/* 1 */}
@@ -257,7 +270,7 @@ const About = () => {
               <div>
                 <p className="bg-gray-800 p-1 rounded-lg w-fit">1988</p>
                 <h2 className="font-bold">
-                Bachelor of Commerce (B.Com)    - Accounting
+                  Bachelor of Commerce (B.Com) - Accounting
                 </h2>
                 <p> University of Dhaka</p>
               </div>
@@ -270,13 +283,10 @@ const About = () => {
 
               <div>
                 <p className="bg-gray-800 p-1 rounded-lg w-fit">2024</p>
-                <h2 className="font-bold">
-                Front-End Web Developer
-                </h2>
+                <h2 className="font-bold">Front-End Web Developer</h2>
                 <p> Programming Hero</p>
               </div>
             </div>
-
           </div>
         </div>
       </section>

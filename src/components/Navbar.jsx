@@ -5,8 +5,8 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="">
-      <div className="  justify-center mt-32 ">
-        <div className="flex flex-col justify-center items-center space-y-8 ">
+      <div className="  justify-center mt-12 lg:mt-32 ">
+        <div className="flex lg:flex-col gap-8  justify-center items-center lg:space-y-8 ">
           <NavLink to="/">
             <button className="bg-[#ffb400] p-4 rounded-full text-[#a9106b] text-2xl relative group  ">
               <FaHome></FaHome>
