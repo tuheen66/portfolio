@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import travel_geek from "../../assets/images/Travel_geek.jpg";
+import travel_geek from "../../assets/images/screen_shot/Travel_geek.jpg";
 
 const TheTravelGeek = () => {
   return (

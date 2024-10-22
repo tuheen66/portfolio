@@ -1,5 +1,5 @@
 import React from "react";
-import heart_sync from "../../assets/images/Heartsync.jpg";
+import heart_sync from "../../assets/images/screen_shot/Heartsync.jpg";
 import { Link } from "react-router-dom";
 
 const HeartSync = () => {

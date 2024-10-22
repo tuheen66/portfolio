@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import benevo from "../../assets/images/Benevo.jpg";
+import benevo from "../../assets/images/screen_shot/Benevo.jpg";
 
 const Benevo = () => {
   return (

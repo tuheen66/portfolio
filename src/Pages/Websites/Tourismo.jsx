@@ -1,4 +1,4 @@
-import tourismo from "../../assets/images/Tourismo.jpg";
+import tourismo from "../../assets/images/screen_shot/Tourismo.jpg";
 import { Link } from "react-router-dom";
 
 const Tourismo = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import canvas from "../../assets/images/Colorful_Canvas.jpg";
+import canvas from "../../assets/images/screen_shot/Colorful_Canvas.jpg";
 import { Link } from "react-router-dom";
 
 const ColorfulCanvas = () => {

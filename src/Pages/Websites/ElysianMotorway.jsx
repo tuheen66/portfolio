@@ -1,4 +1,4 @@
-import elysian from "../../assets/images/Elysian.jpg";
+import elysian from "../../assets/images/screen_shot/Elysian.jpg";
 import { Link } from "react-router-dom";
 
 const ElysianMotorway = () => {
