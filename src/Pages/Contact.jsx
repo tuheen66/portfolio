@@ -29,7 +29,7 @@ const Contact = () => {
         </div>
 
         <div className="lg:w-1/2">
-          <h2 className="mb-4 font-bold text-3xl">Contact Us</h2>
+          <h2 className="mb-4 font-bold text-3xl">Contact Me</h2>
 
           <section className="p-6 dark:bg-gray-200 rounded-xl">
             <form className="container">

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBriefcase, FaEnvelopeOpen, FaHome, FaUser } from "react-icons/fa";
-import {  NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -33,8 +33,11 @@ const Navbar = () => {
             </button>
           </NavLink>
           <NavLink to="/contact">
-            <button className="bg-[#ffb400] p-4 rounded-full text-[#a9106b] text-2xl ">
+            <button className="bg-[#ffb400] p-4 rounded-full text-[#a9106b] text-2xl relative group ">
               <FaEnvelopeOpen></FaEnvelopeOpen>
+              <span class="opacity-0 group-hover:opacity-100 absolute  transform top-5 -translate-x-20 bg-black text-white text-sm px-2 py-1 rounded">
+                Contact
+              </span>
             </button>
           </NavLink>
         </div>

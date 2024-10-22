@@ -11,6 +11,7 @@ import { IoIosBriefcase, IoLogoJavascript } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { RiFirebaseFill, RiReactjsLine } from "react-icons/ri";
 import { SiExpress, SiMongodb } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -60,16 +61,20 @@ const About = () => {
             </div>
 
             <div className="flex flex-col gap-12">
-              <button className="bg-[#ffb400] text-[#a9106b] px-4 py-2 rounded-lg font-bold">
+              <Link to="https://github.com/tuheen66" target="_blank">
+              <button className="bg-[#ffb400] text-[#a9106b] w-full  py-2 rounded-lg font-bold">
                 Github
               </button>
-              <button className="bg-[#ffb400] text-[#a9106b] px-4 py-2 rounded-lg font-bold">
+              </Link>
+              <Link to ="https://www.linkedin.com/in/monirul-hassan-80856469/" target="_blank">
+              <button className="bg-[#ffb400] text-[#a9106b] w-full py-2 rounded-lg font-bold">
                 LinkedIn
               </button>
+              </Link>
               <a
                 href="/MONIRUL_HASSAN.pdf"
                 download
-                className="bg-[#ffb400] text-[#a9106b] px-4 py-2 rounded-lg font-bold"
+                className="bg-[#ffb400] text-[#a9106b] w-full px-4 py-2 rounded-lg font-bold"
               >
                 Download CV
               </a>
