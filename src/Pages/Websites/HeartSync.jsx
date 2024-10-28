@@ -7,19 +7,19 @@ const HeartSync = () => {
     <div className="mx-4 mt-12 lg:w-[80%] lg:mx-auto mb-12 ">
       <div className="flex  flex-col lg:flex-row ">
         <div className="lg:w-2/3">
-          <div className="max-w-4xl mx-auto p-6 space-y-6 text-gray-700">
+          <div className="max-w-4xl mx-auto p-6 space-y-6 text-gray-800">
             <h1 className="text-4xl font-bold text-center text-[#a9106b] space-x-2">
               Heartsync
             </h1>
-            <p className="text-lg text-center text-gray-400">
+            <p className="text-lg text-center text-gray-800">
               An online portal for matchmaking and matrimony
             </p>
 
             <div className="space-y-4">
-              <h2 className="text-2xl font-semibold text-gray-400">
+              <h2 className="text-2xl font-semibold text-gray-800">
                 Technologies Used:
               </h2>
-              <ul className="list-disc pl-6 space-y-1 text-gray-400">
+              <ul className="list-disc pl-6 space-y-1 text-gray-800">
                 <li>
                   <strong>Frontend:</strong> React JS, Firebase Authentication,
                   React Router
@@ -37,10 +37,10 @@ const HeartSync = () => {
             </div>
 
             <div className="space-y-4">
-              <h2 className="text-2xl font-semibold text-gray-400">
+              <h2 className="text-2xl font-semibold text-gray-800">
                 Main Features:
               </h2>
-              <ul className="list-disc pl-6 space-y-2 text-gray-400">
+              <ul className="list-disc pl-6 space-y-2 text-gray-800">
                 <li>
                   <strong> Admin email : </strong>
                   hassan.monirul@gmail.com <br />{" "}

@@ -12,7 +12,7 @@ const MyPortfolio = () => {
   return (
     <div className="w-[90%] mx-auto mb-12">
       <div>
-        <h2 className="text-4xl md:text-5xl  lg:text-7xl font-bold text-white text-center uppercase my-12">
+        <h2 className="text-4xl md:text-5xl  lg:text-7xl font-bold text-gray-700 text-center uppercase my-12">
           my <span className="text-[#ffb400]">portfolio</span>
         </h2>
       </div>

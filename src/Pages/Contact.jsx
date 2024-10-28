@@ -28,7 +28,7 @@ const Contact = () => {
         <div className="lg:w-1/2">
           <h2 className="mb-4 font-bold text-3xl">Contact Me</h2>
 
-          <section className="p-6 dark:bg-gray-200 rounded-xl">
+          <section className="p-6 bg-gray-400 rounded-xl">
             <form className="container">
               <div className="space-y-12">
                 <div className="col-span-full sm:col-span-3 space-y-2">

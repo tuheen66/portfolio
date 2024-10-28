@@ -18,7 +18,7 @@ const About = () => {
     <div className="w-[90%] mx-auto ">
       <section className="mt-12 ">
         <div>
-          <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white text-center ">
+          <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-gray-700 text-center ">
             ABOUT <span className="text-[#ffb400]">ME</span>
           </h2>
         </div>
@@ -90,7 +90,7 @@ const About = () => {
                 <span className="text-5xl font-bold">2</span>+
               </h2>
               <p className="uppercase mt-4">
-                - Years of Web devleopment Experience
+                - Years of learning Experience
               </p>
             </div>
 
@@ -125,52 +125,52 @@ const About = () => {
           My Skills
         </h2>
         <div className=" flex flex-wrap gap-8 lg:gap-20 justify-center mb-12">
-          <div className="flex flex-col items-center text-xl border-2 border-gray-300 w-32 h-32 justify-center rounded-full ">
+          <div className="flex flex-col items-center text-xl border-2 border-[#ffb400] w-32 h-32 justify-center rounded-full ">
             <FaHtml5 className="text-4xl"></FaHtml5>
             <p>Html5</p>
           </div>
 
-          <div className="flex flex-col items-center text-xl border-2 border-gray-300 w-32 h-32 justify-center rounded-full ">
+          <div className="flex flex-col items-center text-xl border-2 border-[#ffb400] w-32 h-32 justify-center rounded-full ">
             <FaCss3Alt className="text-4xl"></FaCss3Alt>
             <p>CSS3</p>
           </div>
 
-          <div className="flex flex-col items-center text-xl border-2 border-gray-300 w-32 h-32 justify-center rounded-full ">
+          <div className="flex flex-col items-center text-xl border-2 border-[#ffb400] w-32 h-32 justify-center rounded-full ">
             <SiTailwindcss className="text-4xl"></SiTailwindcss>
             <p>Tailwind CSS</p>
           </div>
 
-          <div className="flex flex-col items-center text-xl border-2 border-gray-300 w-32 h-32 justify-center rounded-full ">
+          <div className="flex flex-col items-center text-xl border-2 border-[#ffb400] w-32 h-32 justify-center rounded-full ">
             <SiDaisyui className="text-6xl"></SiDaisyui>
             <p>Daisy UI</p>
           </div>
 
-          <div className="flex flex-col items-center text-xl border-2 border-gray-300 w-32 h-32 justify-center rounded-full ">
+          <div className="flex flex-col items-center text-xl border-2 border-[#ffb400] w-32 h-32 justify-center rounded-full ">
             <IoLogoJavascript className="text-4xl"></IoLogoJavascript>
             <p>JavaScript</p>
           </div>
 
-          <div className="flex flex-col items-center text-xl border-2 border-gray-300 w-32 h-32 justify-center rounded-full ">
+          <div className="flex flex-col items-center text-xl border-2 border-[#ffb400] w-32 h-32 justify-center rounded-full ">
             <RiReactjsLine className="text-4xl"></RiReactjsLine>
             <p>React Js</p>
           </div>
 
-          <div className="flex flex-col items-center text-xl border-2 border-gray-300 w-32 h-32 justify-center rounded-full ">
+          <div className="flex flex-col items-center text-xl border-2 border-[#ffb400] w-32 h-32 justify-center rounded-full ">
             <FaNodeJs className="text-4xl"></FaNodeJs>
             <p>Node Js</p>
           </div>
 
-          <div className="flex flex-col items-center text-xl border-2 border-gray-300 w-32 h-32 justify-center rounded-full ">
+          <div className="flex flex-col items-center text-xl border-2 border-[#ffb400] w-32 h-32 justify-center rounded-full ">
             <SiExpress className="text-4xl"></SiExpress>
             <p>Express</p>
           </div>
 
-          <div className="flex flex-col items-center text-xl border-2 border-gray-300 w-32 h-32 justify-center rounded-full ">
+          <div className="flex flex-col items-center text-xl border-2 border-[#ffb400] w-32 h-32 justify-center rounded-full ">
             <RiFirebaseFill className="text-4xl"></RiFirebaseFill>
             <p>Firebase</p>
           </div>
 
-          <div className="flex flex-col items-center text-xl border-2 border-gray-300 w-32 h-32 justify-center rounded-full ">
+          <div className="flex flex-col items-center text-xl border-2 border-[#ffb400] w-32 h-32 justify-center rounded-full ">
             <SiMongodb className="text-4xl"></SiMongodb>
             <p>Mongodb</p>
           </div>
@@ -193,7 +193,7 @@ const About = () => {
               </div>
 
               <div>
-                <p className="bg-gray-800 p-1 rounded-lg w-fit">
+                <p className="bg-gray-300 p-1 rounded-lg w-fit">
                   July 1, 2017 - February 29, 2020
                 </p>
                 <h2 className="font-bold">
@@ -210,7 +210,7 @@ const About = () => {
               </div>
 
               <div>
-                <p className="bg-gray-800 p-1 rounded-lg w-fit">
+                <p className="bg-gray-300 p-1 rounded-lg w-fit">
                   May 1, 2015 - June 30, 2017
                 </p>
                 <h2 className="font-bold">
@@ -229,7 +229,7 @@ const About = () => {
 
               {/* 3 */}
               <div>
-                <p className="bg-gray-800 p-1 rounded-lg w-fit">
+                <p className="bg-gray-300 p-1 rounded-lg w-fit">
                   January 1, 2010 - April 30, 2015
                 </p>
                 <h2 className="font-bold">
@@ -254,7 +254,7 @@ const About = () => {
               </div>
 
               <div>
-                <p className="bg-gray-800 p-1 rounded-lg w-fit">1989</p>
+                <p className="bg-gray-300 p-1 rounded-lg w-fit">1989</p>
                 <h2 className="font-bold">
                   Master of Commerce (M. Com) - Accounting
                 </h2>
@@ -268,7 +268,7 @@ const About = () => {
               </div>
 
               <div>
-                <p className="bg-gray-800 p-1 rounded-lg w-fit">1988</p>
+                <p className="bg-gray-300 p-1 rounded-lg w-fit">1988</p>
                 <h2 className="font-bold">
                   Bachelor of Commerce (B.Com) - Accounting
                 </h2>
@@ -282,7 +282,7 @@ const About = () => {
               </div>
 
               <div>
-                <p className="bg-gray-800 p-1 rounded-lg w-fit">2024</p>
+                <p className="bg-gray-300 p-1 rounded-lg w-fit">2024</p>
                 <h2 className="font-bold">Front-End Web Developer</h2>
                 <p> Programming Hero</p>
               </div>
