@@ -18,7 +18,7 @@ const About = () => {
     <div className="w-[90%] mx-auto ">
       <section className="mt-12 ">
         <div>
-          <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-gray-700 text-center ">
+          <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-gray-300 text-center ">
             ABOUT <span className="text-[#ffb400]">ME</span>
           </h2>
         </div>
@@ -193,7 +193,7 @@ const About = () => {
               </div>
 
               <div>
-                <p className="bg-gray-300 p-1 rounded-lg w-fit">
+                <p className="bg-gray-700 p-1 rounded-lg w-fit px-2">
                   July 1, 2017 - February 29, 2020
                 </p>
                 <h2 className="font-bold">
@@ -210,7 +210,7 @@ const About = () => {
               </div>
 
               <div>
-                <p className="bg-gray-300 p-1 rounded-lg w-fit">
+                <p className="bg-gray-700 p-1 rounded-lg w-fit px-2">
                   May 1, 2015 - June 30, 2017
                 </p>
                 <h2 className="font-bold">
@@ -229,7 +229,7 @@ const About = () => {
 
               {/* 3 */}
               <div>
-                <p className="bg-gray-300 p-1 rounded-lg w-fit">
+                <p className="bg-gray-700 p-1 rounded-lg w-fit px-2">
                   January 1, 2010 - April 30, 2015
                 </p>
                 <h2 className="font-bold">
@@ -254,7 +254,7 @@ const About = () => {
               </div>
 
               <div>
-                <p className="bg-gray-300 p-1 rounded-lg w-fit">1989</p>
+                <p className="bg-gray-700 p-1 rounded-lg w-fit px-2">1989</p>
                 <h2 className="font-bold">
                   Master of Commerce (M. Com) - Accounting
                 </h2>
@@ -268,7 +268,7 @@ const About = () => {
               </div>
 
               <div>
-                <p className="bg-gray-300 p-1 rounded-lg w-fit">1988</p>
+                <p className="bg-gray-700 p-1 rounded-lg w-fit px-2">1988</p>
                 <h2 className="font-bold">
                   Bachelor of Commerce (B.Com) - Accounting
                 </h2>
@@ -282,7 +282,7 @@ const About = () => {
               </div>
 
               <div>
-                <p className="bg-gray-300 p-1 rounded-lg w-fit">2024</p>
+                <p className="bg-gray-700 p-1 rounded-lg w-fit px-2">2024</p>
                 <h2 className="font-bold">Front-End Web Developer</h2>
                 <p> Programming Hero</p>
               </div>

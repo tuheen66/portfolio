@@ -6,19 +6,19 @@ const Tourismo = () => {
     <div className="mx-4 mt-12 lg:w-[80%] lg:mx-auto mb-12 ">
       <div className="flex  flex-col lg:flex-row ">
         <div className="lg:w-2/3">
-          <div className="max-w-4xl mx-auto p-6 space-y-6 text-gray-800">
+          <div className="max-w-4xl mx-auto p-6 space-y-6 text-gray-400">
             <h1 className="text-4xl font-bold text-center text-[#792753] space-x-2">
               Tourismo
             </h1>
-            <p className="text-lg text-center text-gray-800">
+            <p className="text-lg text-center text-gray-400">
               An online tourism site for tour program and tour guide management
             </p>
 
             <div className="space-y-4">
-              <h2 className="text-2xl font-semibold text-gray-800">
+              <h2 className="text-2xl font-semibold text-gray-400">
                 Technologies Used:
               </h2>
-              <ul className="list-disc pl-6 space-y-1 text-gray-800">
+              <ul className="list-disc pl-6 space-y-1 text-gray-400">
                 <li>
                   <strong>Frontend:</strong> React JS, Firebase Authentication,
                   React Router
@@ -36,10 +36,10 @@ const Tourismo = () => {
             </div>
 
             <div className="space-y-4">
-              <h2 className="text-2xl font-semibold text-gray-800">
+              <h2 className="text-2xl font-semibold text-gray-400">
                 Main Features:
               </h2>
-              <ul className="list-disc pl-6 space-y-2 text-gray-800">
+              <ul className="list-disc pl-6 space-y-2 text-gray-400">
                 <li>
                   <strong> Admin email : </strong>
                   hassan.monirul@gmail.com <br />{" "}
